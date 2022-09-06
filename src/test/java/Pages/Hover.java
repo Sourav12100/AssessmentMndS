@@ -13,11 +13,6 @@ public class Hover {
         this.driver = driver;
     }
 
-  //   public void dropdownHover(String label)
-   // {
-    //   WebElement dropdown = driver.findElement(By.xpath("//a[contains(@class, 'nav-primary__menu-link icon--hdr-arrow-right') and text() = '"+label+"']"));
-  //     actions.moveToElement(dropdown).build().perform();
-  //  }
 
     public void dropdownHover()
     {
